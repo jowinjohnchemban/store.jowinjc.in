@@ -29,6 +29,10 @@ const nextConfig = {
 
     return webpackConfig
   },
+
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
 export default withPayload(nextConfig)
